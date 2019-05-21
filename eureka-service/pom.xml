@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.handson.treinamento</groupId>
-	<artifactId>eureka</artifactId>
+	<artifactId>eureka-service</artifactId>
 	<version>1.0</version>
 	<name>eureka-service</name>
-	<description>Serviço de Descoberta </description>
+	<description>Serviço de Descoberta</description>
 
 	<properties>
 		<java.version>1.8</java.version>

@@ -14,6 +14,11 @@
     <name>hands-on-spring-cloud</name>
     <description>Projeto Hand's On para treinamento de tecnologias Spring Cloud</description>
 
+    <modules>
+        <module>gateway-service</module>
+        <module>eureka-service</module>
+    </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
