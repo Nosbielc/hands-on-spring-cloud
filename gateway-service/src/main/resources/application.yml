@@ -9,12 +9,12 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: exemplo-service
-          uri: lb://exelpo-service
+        - id: banco-data-rest
+          uri: lb://banco-data-rest
           predicates:
-            - Path=/exemplo/**
+            - Path=/bdr/**
           filters:
-            - RewritePath=/exmplo/(?<path>.*), /$\{path}
+            - RewritePath=/bdr/(?<path>.*), /$\{path}
 
 server:
   port: 8080
