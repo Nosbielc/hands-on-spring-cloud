@@ -2,11 +2,17 @@ server:
     port: 8761
 spring:
   application:
-    name: discovery-service
+    name: eureka-service
+  profiles:
+    active: Desenvolvimento
 
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
+  file: logs/eureka-service.log
 
 eureka:
-  datacenter: MixedSalad
+  datacenter: Hand's On - Spring Cloud
   instance:
     hostname: discovery-service
     client:
