@@ -21,7 +21,7 @@ public class AccountService {
 
     public AccountModel getOneAccountById(Integer numberAccount){
 
-        return accountRepository.findbyNumber(numberAccount);
+        return accountRepository.findByNumber(numberAccount);
     }
 
     public void setNewAccount(AccountModel account){
