@@ -1,4 +1,4 @@
-package com.handson.treinamento.eureka;
+package com.handson.treinamento.discovery;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EurekaServiceApplicationTests {
+public class DiscoveryServiceApplicationTests {
 
 	@Test
 	public void contextLoads() {

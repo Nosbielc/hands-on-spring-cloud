@@ -1,0 +1,23 @@
+server:
+    port: 8761
+spring:
+  application:
+    name: discovery-service
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
+  file: logs/eureka-service.log
+
+eureka:
+  datacenter: Hand's On - Spring Cloud
+  environmenr: Desenvolvimento
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    wait-time-in-ms-when-sync-empty: 3000
