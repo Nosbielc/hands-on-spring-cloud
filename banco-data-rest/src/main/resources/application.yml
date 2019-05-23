@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: banco-data-rest
-  cloud:
-    config:
-      uri: http://localhost:8888

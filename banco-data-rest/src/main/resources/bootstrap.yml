@@ -3,4 +3,6 @@ spring:
     name: banco-data-rest
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://localhost:8762
+server:
+  port: 8763
